@@ -1,0 +1,121 @@
+Test Case 1
+===========
+
+Test name: Individual function check.
+
+Test Description: Check if all functions are executing successfully without generating
+error while creating contract on the go.
+
+Desired Outcome: All functions should execute without any error.
+
+Actual outcome: On testing, all functions have compiled and executed successfully.
+
+Result: Pass
+
+
+
+Test Case 2
+===========
+
+Test name: Create new order function.
+
+Test Description: Function creates a new order with quantity as parameter.
+
+Desired Outcome: Should create a new order with a status of "NEW".
+
+Actual outcome: On testing, the function creates an order with the required 
+status and given quantity.
+
+Result: Pass
+
+
+
+Test Case 3
+===========
+
+Test name: Verify order details function.
+
+Test Description: the function returns the details of the order.
+
+Desired Outcome: Should return the given quantity and status when executed.
+
+Actual outcome: On testing, the required details are returned.
+
+Result: Pass
+
+
+
+Test Case 4
+===========
+
+Test name: Accept order
+
+Test Description: order acceptance by Threads Inc with separate ether account.
+
+Desired Outcome: Should update status to "IN PROGRESS" and return "order Accepted". 
+
+Actual outcome: On testing, the required details are returned and status is updated.
+
+Result: Pass
+
+
+
+Test Case 5
+===========
+
+Test name: verify again.
+
+Test Description: verify if status has updated.
+
+Desired Outcome: Should now change the status from "NEW" to "IN PROGRESS".
+
+Actual outcome: On testing, the status is updated.
+
+Result: Pass
+
+
+
+Test Case 6
+===========
+
+Test name: Complete order.
+
+Test Description: Completes and communicates the price of order.
+
+Desired Outcome: Should update the cost variable and status to "COMPLETE".
+
+Actual outcome: On testing, the required params are updated.
+
+Result: Pass
+
+
+
+Test Case 7
+===========
+
+Test name: verify again.
+
+Test Description: verify if status has updated.
+
+Desired Outcome: Should now change the status from "IN PROGRESS" to "COMPLETE".
+
+Actual outcome: On testing, the status is updated.
+
+Result: Pass
+
+
+
+Test Case 8
+===========
+
+Test name: Confirm after making payment.
+
+Test Description: Confirms the payment after completion.
+
+Desired Outcome: Should return the cost to be payed and "PAYMENT SUCCESS" message.
+
+Actual outcome: On testing, the required params are returned.
+
+Result: Pass
+
+
